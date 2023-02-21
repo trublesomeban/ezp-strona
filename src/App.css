@@ -11,14 +11,16 @@
 }
 
 .nav {
-  font-family: 'Poppins'; 
+  font-family: 'Poppins';
   background-color: seagreen;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
 .nav-item {
+  font-weight: bold;
   padding: 1%;
+  color: darkseagreen;
 }
 
 .nav-item:hover {
@@ -34,7 +36,6 @@
 
 a {
   transition: all 0.3s ease;
-  font-weight: bold;
   text-decoration: none;
   color: yellowgreen;
 }
