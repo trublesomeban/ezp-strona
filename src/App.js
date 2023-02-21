@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <div className='info'>Ta strona jest w budowie. Jeśli coś zepsujesz, zgłoś to na <a href='https://github.com/trublesomeban/ezp-strona'>stronie projektu</a>.</div>
+      <div className='info'>Ta strona jest w budowie. Jeśli coś zepsujesz, zgłoś to na <a href='https://github.com/trublesomeban/ezp-strona/issues/new'>stronie projektu</a>.</div>
+      <footer><div className='warning'>⚠ European authorities suspect this site of being used for money laundering. <a href="https://eur-lex.europa.eu/EN/legal-content/glossary/money-laundering.html">Learn more</a></div></footer>
     </div>
   );
 }
