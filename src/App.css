@@ -25,7 +25,7 @@
 
 .nav-item:hover {
   background-color: lightgreen;
-  color: seagreen
+  color: seagreen;
 }
 
 .info {
@@ -38,4 +38,19 @@ a {
   transition: all 0.3s ease;
   text-decoration: none;
   color: yellowgreen;
+}
+
+footer {
+  padding-top: 0.1%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  /* Height of the footer */
+  background-color: darkslategrey;
+}
+
+.warning {
+  color:tomato;
+  font-size: 80%;
 }
