@@ -3,7 +3,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <div className="info">
         Ta strona jest w budowie. Jeśli coś zepsujesz, zgłoś to na{" "}
         <a href="https://github.com/trublesomeban/ezp-strona/issues/new">
