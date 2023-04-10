@@ -15,7 +15,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <>  
-      <IconContext.Provider value={{ color: "black" }}>
+      <IconContext.Provider value={{}}>
         <nav className={"nav-menu active"}>
           <ul className="nav-menu-items">
             {SidebarData.map((item, index) => {
