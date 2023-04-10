@@ -1,8 +1,4 @@
-import React, { useState } from "react";
-
-// ICONS
-import * as FaIcons from "react-icons/fa"; //Now i get access to all the icons
-import * as AiIcons from "react-icons/ai";
+import React from "react";
 
 import { IconContext } from "react-icons";
 
@@ -14,10 +10,12 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <>  
+    <>
       <IconContext.Provider value={{}}>
         <nav className={"nav-menu active"}>
           <ul className="nav-menu-items">
+            <img src={require('../assets/1C.gif')} alt="" />
+            <div className="ezp">Extreme <br />Weather<br /> Events</div>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>

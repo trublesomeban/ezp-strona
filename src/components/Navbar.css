@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('../App.css');
 
-:root {
-    --navBg: whitesmoke;
+.ezp {
+    text-align: justify;
+    margin: 0% 0% 10% 20%;
+    font-family: var(--fnt);
+    color: green;
 }
-
 
 .navbar {
     background-color: var(--navBg);
@@ -37,7 +39,7 @@
 }
 
 .nav-text {
-    font-family: 'Russo One';
+    font-family: var(--fnt);
     display: flex;
     justify-content: start;
     align-items: center;
@@ -58,7 +60,7 @@
     border-radius: 0;
 }
 
-.nav-text a:hover {  
+.nav-text a:hover {
     color: var(--navBg);
     background-color: darkslategrey;
 }
@@ -68,14 +70,6 @@
     padding: 0;
 }
 
-.navbar-toggle {
-    background-color: var(--navBg);
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
 
 span {
     margin-left: 16px;
