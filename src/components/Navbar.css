@@ -2,9 +2,10 @@
 
 .ezp {
     text-align: justify;
-    margin: 0% 0% 10% 20%;
+    margin: 5% 0% 20% 20%;
     font-family: var(--fnt);
     color: green;
+    font-size: 2.1rem;
 }
 
 .navbar {
@@ -57,12 +58,14 @@
     display: flex;
     align-items: center;
     padding: 0 16px;
-    border-radius: 0;
+    border-radius: 5px;
+    transition: background-color 0.15s, color 0.1s, scale 0.18s;
 }
 
 .nav-text a:hover {
     color: var(--navBg);
     background-color: darkslategrey;
+    transform: scale(1.01);
 }
 
 .nav-menu-items {
